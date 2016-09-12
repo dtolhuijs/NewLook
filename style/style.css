@@ -1,0 +1,115 @@
+body {
+    background-image: url("http://www.clipartsgram.com/image/2065384191-white-texture-hd-backgrounds-10.jpg");
+    background-size: cover;
+}
+
+.container {
+    margin-bottom: 10%;
+}
+
+/*********************
+FONTS
+*********************/
+.name,
+.summary,
+.description {
+    font-family: 'Harmattan', sans-serif;
+}
+
+.name {
+    font-size: 20pt;
+}
+
+.summary,
+.description {
+    font-size: 14pt;
+    color: #818181;
+}
+
+
+/*********************
+DESCRIPTION
+*********************/
+.tooltip-arrow,
+.tooltip.right .tooltip-inner {
+    padding: 10px 20px;
+}
+
+.name,
+.summary,
+.info {
+    padding: 0 0 0 30px;
+}
+
+.btn {
+    padding-left: 50px;
+}
+
+
+#buy {
+    margin-left: 30px;
+    margin-top: 5px;
+    padding:6px 20px 6px 20px;
+}
+
+/*********************
+IMAGES
+*********************/
+.img {
+    padding: 30px;
+    height: 400px;
+    width: auto;
+}
+
+/*********************
+LOADING ICON
+*********************/
+
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba(35, 33, 35, 0.9)
+    url('../img/cube.gif')
+    50% 50%
+    no-repeat;
+}
+
+body.loading {
+    overflow: hidden;
+}
+
+body.loading .modal {
+    display: block;
+}
+
+/*********************
+FOOTER
+*********************/
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #EAEAEA;
+    text-align: center;
+}
+
+.social {
+    font-size: 1.5em;
+
+}
+
+.icon {
+    display: inline-flex;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+

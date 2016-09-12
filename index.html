@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>New Look</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="style/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.6.3/css/font-awesome.min.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Harmattan" rel="stylesheet">
+
+    <!-- SCRIPTS -->
+    <script src="lib/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="lib/helpers.js"></script>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<!-- Sidebar -->
+<div id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+
+        <svg class="menu-toggle closing-window" style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="#FFFFFF" d="M13.46,12L19,17.54V19H17.54L12,13.46L6.46,19H5V17.54L10.54,12L5,6.46V5H6.46L12,10.54L17.54,5H19V6.46L13.46,12Z" />
+        </svg>
+
+        <li>
+            <input id="search" type="text" class="form-control" placeholder="Search">
+        </li>
+
+        <div class="shape top"></div>
+
+        <li class="sidebar-brand">
+            <a href="#">Shop</a>
+        </li>
+        <li>
+            <a href="#">New</a>
+        </li>
+        <li>
+            <a href="#">Clothes</a>
+        </li>
+        <li>
+            <a href="#">Shoes</a>
+        </li>
+        <li>
+            <a href="#">Caps</a>
+        </li>
+
+        <div class="shape"></div>
+
+        <li class="sidebar-brand">
+            <a href="#">Help & Service</a>
+        </li>
+        <li>
+            <a href="#">Newsletter</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+
+    </ul>
+</div>
+<!-- /#sidebar-wrapper -->
+
+<!---------- SECTIONS -------------------->
+
+    <svg class="menu-toggle affix hamburger-menu" style="width:24px;height:24px; display: none;" viewBox="0 0 24 24">
+        <path fill="#000000" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+    </svg>
+
+
+    <div class="products container"></div>
+
+<footer class="footer">
+    <div class="social">
+        <div class="icon"><a href="https://dribbble.com/" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a></div>
+        <div class="icon"><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+        <div class="icon"><a href="https://www.instagram.com/"target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+        <div class="icon"><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></div>
+    </div>
+
+</footer>
+
+</div>
+<!-- /#wrapper -->
+
+<div class="modal"><!-- Place at bottom of page --></div>
+</body>
+
+<script type="text/javascript" src="js/Product.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</html>
