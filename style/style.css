@@ -1,5 +1,5 @@
 body {
-    background-image: url("http://www.clipartsgram.com/image/2065384191-white-texture-hd-backgrounds-10.jpg");
+    background-image: url("../img/bg.jpg");
     background-size: cover;
 }
 
@@ -92,11 +92,12 @@ FOOTER
 *********************/
 
 .footer {
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
     height: 80px;
     width: 100%;
+    min-width: 300px;
     background-color: #EAEAEA;
     text-align: center;
 }
@@ -111,5 +112,4 @@ FOOTER
     margin: 20px;
     padding-top: 10px;
 }
-
 

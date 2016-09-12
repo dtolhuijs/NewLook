@@ -1,14 +1,3 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    overflow-x: hidden;
-    margin: 0 0 100px; /* bottom = footer height */
-
-}
-
 /*********************
 SEARCH BAR
 *********************/
@@ -21,7 +10,7 @@ SEARCH BAR
     color: #ffffff;
 }
 
-.shape {
+.line {
     width: 80px;
     margin-left: 20px;
     margin-top: 30px;
